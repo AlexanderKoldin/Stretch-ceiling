@@ -1,0 +1,66 @@
+.header {
+	background: var(--second-bg-color);
+	padding: 14px 0;
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__left {
+		display: flex;
+		align-items: center;
+		gap: 16px;
+	}
+
+	&__logo {
+		font-size: 36.869px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: normal;
+		text-transform: uppercase;
+	}
+
+	&__left-wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__left-text {
+		font-size: 13.229px;
+		font-weight: 300;
+		line-height: normal;
+		text-transform: uppercase;
+	}
+
+	&__right {
+		display: flex;
+		align-items: center;
+		gap: 7px;
+	}
+
+	&__right-wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__right-img {
+		height: 70px;
+		width: 70px;
+	}
+
+	&__right-text {
+		font-size: 13.229px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+
+	&__right-phone {
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+	}
+}
+

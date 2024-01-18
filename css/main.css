@@ -1,9 +1,132 @@
+@import '/node_modules/normalize.css/normalize.css';
 :root {
   --title-color: #fff;
   --text-color: #fff;
   --link-color: #fff;
   --main-bg-color: #fff;
-  --second-bg-color: #fff;
+  --second-bg-color: #4d4d4d;
   --btn-main-color: #fff;
   --btn-second-color: #fff;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(/fonts/Gilroy-Light.otf);
+}
+html {
+  font-family: "Montserrat", sans-serif;
+  color: var(--text-color);
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.container {
+  max-width: 1390px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.hide {
+  display: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  margin: 0;
+  border: none;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.header {
+  background: var(--second-bg-color);
+  padding: 14px 0;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.header__logo {
+  font-size: 36.869px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.header__left-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.header__left-text {
+  font-size: 13.229px;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.header__right-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.header__right-img {
+  height: 70px;
+  width: 70px;
+}
+.header__right-text {
+  font-size: 13.229px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header__right-phone {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }/*# sourceMappingURL=main.css.map */
