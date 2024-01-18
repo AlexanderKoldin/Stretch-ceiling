@@ -3,7 +3,7 @@
 	--text-color: #fff; //Цвета текста.
 	--link-color: #fff; //Цвета ссылок.
 
-	--main-bg-color: #fff; //Основной цвет фона.
+	--main-bg-color: #17191a; //Основной цвет фона.
 	--second-bg-color: #4d4d4d; //Второстепенный цвет фона.
 
 	--btn-main-color: #fff; //Цвет основной кнопки.
@@ -19,4 +19,8 @@
 html {
 	font-family: 'Montserrat', sans-serif;
 	color: var(--text-color);
+}
+
+body {
+	background-color: var(--main-bg-color);
 }

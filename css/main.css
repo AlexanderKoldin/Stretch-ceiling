@@ -3,7 +3,7 @@
   --title-color: #fff;
   --text-color: #fff;
   --link-color: #fff;
-  --main-bg-color: #fff;
+  --main-bg-color: #17191a;
   --second-bg-color: #4d4d4d;
   --btn-main-color: #fff;
   --btn-second-color: #fff;
@@ -16,6 +16,10 @@
 html {
   font-family: "Montserrat", sans-serif;
   color: var(--text-color);
+}
+
+body {
+  background-color: var(--main-bg-color);
 }
 
 html {
@@ -78,6 +82,8 @@ input {
 .header {
   background: var(--second-bg-color);
   padding: 14px 0;
+  margin-bottom: 125px;
+  min-width: 1400px;
 }
 .header__container {
   display: flex;
@@ -129,4 +135,106 @@ input {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+.hero__container {
+  display: flex;
+}
+.hero__left-title {
+  font-family: Gilroy;
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 101.4%; /* 65.91px */
+  text-transform: uppercase;
+  width: 776.795px;
+}
+.hero__left-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 33px;
+}
+.hero__left-text {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 514.127px;
+  margin: 0;
+}
+.hero__left-button {
+  color: var(--text-color);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  padding: 25px 37px;
+  border-radius: 15px;
+  background: linear-gradient(97deg, #f6a0a2 23.77%, #fe7d11 77.11%);
+  border: none;
+}
+.hero__left-experience {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 450.978px;
+  margin-bottom: 70px;
+}
+.hero__left-promotion {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  position: relative;
+}
+.hero__left-promotion-img {
+  border-radius: 15px;
+  background: var(--text-color);
+  max-width: 160px;
+  max-height: 80px;
+  padding: 13px 14px 4px 10px;
+}
+.hero__left-promotion-text {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 417.865px;
+}
+.hero__left-promotion-torch {
+  position: absolute;
+  top: -80px;
+  right: 0px;
+}
+.hero__right-wrapper {
+  position: relative;
+  width: 400px;
+}
+.hero__right-top {
+  z-index: 1;
+  position: absolute;
+  top: -80px;
+  right: 60px;
+  width: 298.064px;
+  height: 406.64px;
+}
+.hero__right-center {
+  z-index: 2;
+  position: absolute;
+  border: 15px solid var(--main-bg-color);
+  top: 96px;
+  right: -154px;
+  width: 322.648px;
+  height: 329.717px;
+  background-size: cover;
+}
+.hero__right-bottom {
+  z-index: 3;
+  position: absolute;
+  width: 364.381px;
+  height: 353.502px;
+  border: 15px solid var(--main-bg-color);
+  top: 400px;
+  right: -50px;
 }/*# sourceMappingURL=main.css.map */
