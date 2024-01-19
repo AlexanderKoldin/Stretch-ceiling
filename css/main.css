@@ -265,4 +265,36 @@ input {
 .swiper-slide-img {
   width: 300px;
   height: 160px;
+}
+
+.features {
+  margin-bottom: 130px;
+}
+.features__container {
+  display: flex;
+}
+.features__box {
+  display: flex;
+  gap: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 30px 30px;
+  max-width: 430px;
+}
+.features__number {
+  font-size: 38.607px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 101.4%; /* 39.147px */
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: linear-gradient(90deg, #f6a0a2, #fe7d11);
+}
+.features__text {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 101.4%; /* 25.35px */
+  margin: 0;
 }/*# sourceMappingURL=main.css.map */

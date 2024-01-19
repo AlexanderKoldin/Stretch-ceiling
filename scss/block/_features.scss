@@ -1,0 +1,36 @@
+.features {
+	margin-bottom: 130px;
+
+	&__container {
+		display: flex;
+	}
+
+	&__box {
+		display: flex;
+		gap: 16px;
+		border: 1px solid rgba(255, 255, 255, 0.20);
+		padding: 30px 30px;
+		max-width: 430px;
+	}
+
+	&__number {
+		font-size: 38.607px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 101.4%; /* 39.147px */
+		text-transform: uppercase;
+
+		color: transparent;
+		background-clip: text;
+		background-image: linear-gradient(90deg, #f6a0a2, #fe7d11);
+	}
+
+	&__text {
+		font-size: 25px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 101.4%; /* 25.35px */
+
+		margin: 0;
+	}
+}
