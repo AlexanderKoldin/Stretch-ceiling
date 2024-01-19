@@ -1,14 +1,8 @@
 .hero {
+	margin-bottom: 140px;
 	&__container {
 		display: flex;
-	}
-
-	// .hero__left
-
-	&__left {
-	}
-
-	// .hero__left-title
+	}	
 
 	&__left-title {
 		font-family: Gilroy;
@@ -36,8 +30,6 @@
 
 		margin: 0;
 	}
-
-	// .hero__left-button
 
 	&__left-button {
 		color: var(--text-color);
@@ -105,9 +97,6 @@
 		position: absolute;
 		top: -80px;
 		right: 0px;
-	}
-
-	&__right {
 	}
 
 	&__right-wrapper {

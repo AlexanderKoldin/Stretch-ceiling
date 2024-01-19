@@ -1,3 +1,4 @@
+@import '/css/swiper-bundle.min.css';
 @import '/node_modules/normalize.css/normalize.css';
 :root {
   --title-color: #fff;
@@ -137,6 +138,9 @@ input {
   line-height: normal;
 }
 
+.hero {
+  margin-bottom: 140px;
+}
 .hero__container {
   display: flex;
 }
@@ -237,4 +241,28 @@ input {
   border: 15px solid var(--main-bg-color);
   top: 400px;
   right: -50px;
+}
+
+.swiper-slider {
+  margin-bottom: 70px;
+}
+
+.swiper {
+  display: flex;
+  width: 100%;
+}
+
+.swiper-wrapper {
+  box-sizing: content-box;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide-img {
+  width: 300px;
+  height: 160px;
 }/*# sourceMappingURL=main.css.map */
