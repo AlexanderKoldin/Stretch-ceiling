@@ -1,0 +1,80 @@
+.installation {
+	margin-bottom: 260px;
+
+	&_right-box {
+		border: 1px solid red;
+	}
+
+	&_bottom-box {
+	}
+
+	&__left {
+		display: flex;
+		flex-direction: column;
+		max-width: 364px;
+	}
+
+	&__title {
+		font-family: 'Gilroy';
+		font-size: 55px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 101.4%; /* 55.77px */
+		text-transform: uppercase;
+
+		color: transparent;
+		background-clip: text;
+		background-image: linear-gradient(90deg, #2763fd, #fff);
+
+		margin-bottom: 10px;
+	}
+
+	&__text {
+		font-size: 25px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: normal;
+
+		opacity: 0.5;
+		margin: 0;
+	}
+
+	&__right {
+		display: flex;
+    
+	}
+
+	&__img {
+		width: 326px;
+		height: 256px;
+
+    
+	}
+
+	&__box-title {
+		font-size: 35px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 101.4%; /* 35.49px */
+		text-transform: uppercase;
+	}
+
+	&__box-text {
+		font-size: 25px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 101.4%; /* 25.35px */
+	}
+
+	&__bottom {
+		display: flex;
+	}
+}
+.container {
+	// .container__installation
+
+	&__installation {
+		display: flex;
+		gap: 60px;
+	}
+}

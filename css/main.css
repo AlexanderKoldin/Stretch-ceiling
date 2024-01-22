@@ -83,7 +83,7 @@ input {
 .header {
   background: var(--second-bg-color);
   padding: 14px 0;
-  margin-bottom: 125px;
+  margin-bottom: 60px;
   min-width: 1400px;
 }
 .header__container {
@@ -218,7 +218,7 @@ input {
 .hero__right-top {
   z-index: 1;
   position: absolute;
-  top: -80px;
+  top: -20px;
   right: 60px;
   width: 298.064px;
   height: 406.64px;
@@ -239,7 +239,7 @@ input {
   width: 364.381px;
   height: 353.502px;
   border: 15px solid var(--main-bg-color);
-  top: 400px;
+  top: 350px;
   right: -50px;
 }
 
@@ -297,4 +297,76 @@ input {
   font-weight: 300;
   line-height: 101.4%; /* 25.35px */
   margin: 0;
+}
+
+.roof {
+  margin-bottom: 260px;
+}
+.roof__info {
+  grid-row: span 2;
+  width: 400px;
+  padding: 0 17px;
+  margin-right: 30px;
+}
+.roof__title {
+  font-family: "Gilroy";
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.4%; /* 55.77px */
+  text-transform: uppercase;
+  margin: 0;
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: linear-gradient(90deg, #2763fd, #fff);
+  margin-bottom: 10px;
+}
+.roof__text {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  opacity: 0.5;
+  margin: 0;
+}
+.roof__card {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 17px 28px 0px 28px;
+}
+.roof__card:nth-child(6) {
+  margin-left: 45px;
+}
+.roof__card-img {
+  margin-bottom: 16px;
+}
+.roof__card-title {
+  font-family: Gilroy;
+  font-size: 35px;
+  margin-bottom: 2px;
+  font-weight: 400;
+  line-height: 101.4%; /* 35.49px */
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: linear-gradient(90deg, #f6a0a2, #fe7d11);
+}
+.roof__card-text {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 101.4%; /* 25.35px */
+  margin-bottom: 47px;
+  opacity: 0.75;
+}
+
+.container__roof {
+  width: 1220px;
+  margin: auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }/*# sourceMappingURL=main.css.map */

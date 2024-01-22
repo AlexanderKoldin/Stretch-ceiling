@@ -2,7 +2,7 @@
 	margin-bottom: 140px;
 	&__container {
 		display: flex;
-	}	
+	}
 
 	&__left-title {
 		font-family: Gilroy;
@@ -48,8 +48,6 @@
 		border: none;
 	}
 
-	// .hero__left-experience
-
 	&__left-experience {
 		font-size: 20px;
 		font-style: normal;
@@ -61,8 +59,6 @@
 		margin-bottom: 70px;
 	}
 
-	// .hero__left-promotion
-
 	&__left-promotion {
 		display: flex;
 		gap: 15px;
@@ -70,8 +66,6 @@
 
 		position: relative;
 	}
-
-	// .hero__left-promotion-img
 
 	&__left-promotion-img {
 		border-radius: 15px;
@@ -81,8 +75,6 @@
 
 		padding: 13px 14px 4px 10px;
 	}
-
-	// .hero__left-promotion-text
 
 	&__left-promotion-text {
 		font-size: 25px;
@@ -109,7 +101,7 @@
 
 		position: absolute;
 
-		top: -80px;
+		top: -20px;
 		right: 60px;
 
 		width: 298.064px;
@@ -142,7 +134,7 @@
 
 		border: 15px solid var(--main-bg-color);
 
-		top: 400px;
+		top: 350px;
 		right: -50px;
 	}
 }
