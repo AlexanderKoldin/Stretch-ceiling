@@ -1,0 +1,48 @@
+.optional {
+	margin-bottom: 112px;
+
+	&__title {
+		text-align: center;
+		font-family: Gilroy;
+		font-size: 55px;
+
+		font-weight: 400;
+		line-height: 101.4%;
+		text-transform: uppercase;
+
+		color: transparent;
+		background-clip: text;
+		background-image: linear-gradient(90deg, #8087c6, #b84d00);
+	}
+
+	&__box {
+		display: flex;
+		justify-content: space-between;
+
+		gap: 20px;
+
+		border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+		border-top: 1px solid rgba(255, 255, 255, 0.25);
+	}
+
+	&__box-card {
+		width: 300px;
+		max-height: 405px;
+
+		margin: 20px 0;
+
+		position: relative;
+	}
+
+	&__box-text {
+		position: absolute;
+		bottom: -10px;
+		left: 25px;
+
+		font-family: Montserrat;
+		font-size: 25px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 101.4%; /* 25.35px */
+	}
+}
